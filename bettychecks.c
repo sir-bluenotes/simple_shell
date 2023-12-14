@@ -7,7 +7,8 @@
 
 int main(void)
 {
-	int a, b, sum = 0;
+	int a, b;
+	int sum = 0;
 
 	printf("Enter two numbers:");
 
