@@ -7,7 +7,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <sys/types.h>
-#include <sys/wait.h>
+// #include <sys/wait.h>
 
 void prompt(void);
 void paste(const char *str);
