@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 /**
-* main - adds two numbers
-*Return: 0
-*/
-
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int a, b;
-	int sum = 0;
+    int a, b;
+    int sum = 0;
 
-	printf("Enter two numbers:");
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+    sum = a + b;
+    printf("The sum is: %d\n", sum);
 
-	scanf("%d  %d", &a, &b);
-	sum = a + b;
-	printf("The sum is: %d\n", sum);
-
-	return (0);
+    return (0);
 }
