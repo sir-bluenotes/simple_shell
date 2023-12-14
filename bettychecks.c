@@ -1,13 +1,13 @@
 #include "shell.h"
 
 /**
-*main - adds two numbers
-*return: 0
-*/
+ *main - adds two numbers
+ *@Return: 0
+ */
 
 int main(void)
 {
-	int a,b,sum = 0;
+	int a, b, sum = 0;
 
 	printf("Enter two numbers:");
 
