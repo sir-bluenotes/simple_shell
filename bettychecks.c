@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-    int a, b;
-    int sum = 0;
+	int a, b;
+	int sum = 0;
 
-    printf("Enter two numbers: ");
-    scanf("%d %d", &a, &b);
-    sum = a + b;
-    printf("The sum is: %d\n", sum);
+	printf("Enter two numbers: ");
+	scanf("%d %d", &a, &b);
+	sum = a + b;
+	printf("The sum is: %d\n", sum);
 
-    return (0);
+	return (0);
 }
