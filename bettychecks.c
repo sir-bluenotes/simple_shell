@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- *main - adds two numbers
- *Return: 0
- */
+*main - adds two numbers
+*Return: 0
+*/
 
 int main(void)
 {
