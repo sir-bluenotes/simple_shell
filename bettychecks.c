@@ -1,7 +1,7 @@
-#include "shell.h"
+#include <stdio.h>
 
 /**
-*main - adds two numbers
+* main - adds two numbers
 *Return: 0
 */
 
@@ -14,7 +14,7 @@ int main(void)
 
 	scanf("%d  %d", &a, &b);
 	sum = a + b;
-	printf("The sum is:%d", sum);
+	printf("The sum is: %d\n", sum);
 
 	return (0);
 }
