@@ -15,5 +15,5 @@ int main(void)
 	sum = a + b;
 	printf("The sum is:%d", sum);
 
-	return 0;
+	return (0);
 }
